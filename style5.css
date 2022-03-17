@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+
+}
+.container{
+    margin:0px 60px;
+}
+
+.my{
+    margin: 60px 0px;
+}
+
+.mt{
+    margin-top:30px;
+}
+
+.size{
+    width: 300px;
+    height: 200px;
+}
+
+hr{
+    margin: 0px 600px 40px 600px;
+    height: 4px;
+    color: #000;
+
+}
+body{
+    background-color:rgb(240, 198, 224);
+}
+
+header{
+    background-image:url(./kyoto8.webp);
+    height:75vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    list-style: none;
+    float:right;
+    display:flex;
+    margin-top: 50px;
+}
+ul li a{
+    text-decoration:none ;
+    color:#000;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border:1px solid transparent;
+    margin:20px;
+    font-weight: 500;
+    transition:0.6s ease;
+}
+
+ul li a:hover{
+background:#fff;
+color:#000;
+}
+
+.bouton{
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-50%)
+}
+.bouton a{
+color:#000;
+text-decoration: none;
+border:1px solid #000;
+padding: 10px 20px;
+}
+
+
+h1{
+    text-align: center;
+}
+.alternative{
+    background-color: #000;
+}
+
+img{
+    width:25%;
